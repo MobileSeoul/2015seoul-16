@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:background="#ffffff" >
+
+    <!-- android:background="@drawable/select_paper2" -->
+
+    <ImageView
+        android:id="@+id/Book_martpic"
+        android:layout_width="80dp"
+        android:layout_height="62.5dp"
+      android:layout_marginLeft="1dp"
+      android:layout_marginTop="1dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/Book_mart_childname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:focusable="false"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="2dp"
+        android:typeface="monospace"
+        android:textColor="#363636"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/Book_smallname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="87dp"
+        android:typeface="monospace"
+        android:textColor="#363636"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Select_mart_button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

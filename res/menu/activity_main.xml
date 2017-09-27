@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings1"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings1"/>
+    <item
+        android:id="@+id/menu_settings2"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings2"/>
+    <item
+        android:id="@+id/menu_settings3"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings3"/>
+    <item
+        android:id="@+id/menu_settings4"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings4"/>
+    
+    <!-- XML로 SubMenu 설정 -->
+    <item
+        android:id="@+id/menu_settings5"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings5">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/menu_settings6"
+                    android:orderInCategory="100"
+                    android:title="@string/menu_settings6"/>
+                <item
+                    android:id="@+id/menu_settings7"
+                    android:orderInCategory="100"
+                    android:title="@string/menu_settings7"/>
+                <item
+                    android:id="@+id/menu_settings8"
+                    android:orderInCategory="100"
+                    android:title="@string/menu_settings8"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

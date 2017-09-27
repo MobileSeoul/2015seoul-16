@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/Select_mart_imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="71.8dp"
+        android:layout_marginLeft="dp" />
+
+    <TextView
+        android:id="@+id/groupName"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center_horizontal"
+        android:textColor="#363636"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+    <!-- android:textSize="14px" -->
+
+</RelativeLayout>

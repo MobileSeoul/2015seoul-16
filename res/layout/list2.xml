@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back0"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:id="@+id/downButton"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_alignBottom="@+id/upButton"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_style2"
+
+        android:focusable="false" />
+
+    <Button
+        android:id="@+id/upButton"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/button_style"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/downButton"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="center"
+        android:maxLength="2"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="TextView"
+        android:textScaleX="0.83"
+        android:typeface="monospace"
+        android:textColor="#363636"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="-7.5dp"
+        android:layout_marginTop="2dp"
+        
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/upButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        android:text="TextView" />
+
+</RelativeLayout>

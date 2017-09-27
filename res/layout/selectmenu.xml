@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sl="http://schemas.android.com/apk/res/com.example.n_mart"
+    android:id="@+id/main_relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".MainActivity" >
+
+    
+    
+    
+    <com.example.n_mart.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lastmain"
+        sl:scale_base_height="1300"
+        sl:scale_base_width="745" >
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mapbutton_style"	
+            sl:scale_height="172"
+            sl:scale_left="160"
+            sl:scale_textsize="20"
+            sl:scale_top="220"
+            sl:scale_width="172" />
+
+        <Button
+            android:id="@+id/listmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/martbutton_style"
+            sl:scale_height="172"
+            sl:scale_left="406"
+            sl:scale_textsize="20"
+            sl:scale_top="320"
+            sl:scale_width="172"/>
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/infobutton_style"
+            sl:scale_height="172"
+            sl:scale_left="50"
+            sl:scale_textsize="20"
+            sl:scale_top="560"
+            sl:scale_width="172" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deletebutton_style"
+            sl:scale_height="172"
+            sl:scale_left="285"
+            sl:scale_textsize="20"
+            sl:scale_top="660"
+            sl:scale_width="172" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/helpbutton_style"
+            sl:scale_height="172"
+            sl:scale_left="520"
+            sl:scale_textsize="20"
+            sl:scale_top="763"
+            sl:scale_width="172" />
+    </com.example.n_mart.ScalableLayout>
+
+</RelativeLayout>

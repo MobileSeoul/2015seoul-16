@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/id_linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <com.exam.zzz_other_menu.TipsView
+                android:id="@+id/id_view1"
+                android:layout_width="300dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/jojack2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text=" "
+                android:textSize="42sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bu1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu1"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu2"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu3"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bu4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu4"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bu5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu6"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="56.5dp"
+        android:layout_marginLeft="300dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="30dp"
+        android:text="TextView"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="40dp"
+        android:text="0"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+
+</RelativeLayout>

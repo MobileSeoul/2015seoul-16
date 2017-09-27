@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/Select_mart_imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-6.5dp"
+        android:src="@drawable/selectmart_top" />
+
+    <RelativeLayout
+        android:id="@+id/headlist1"
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:background="#fff8dc"
+        android:layout_marginTop="-6.5dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="80dp"
+            android:layout_height="62.5dp"
+            android:layout_marginLeft="3dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/header_mart_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="85dp"
+            android:focusable="false"
+            android:textColor="#363636"
+            android:textSize="27sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/header_small_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="36dp"
+            android:textColor="#363636"
+            android:textSize="15sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/price_chong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="30dp"
+            android:text="총 액:"
+            android:textColor="#363636"
+            android:textSize="17sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/header_allprice"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/price_chong"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-3dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ffa500"
+            android:textSize="22sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/Price_won"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="30dp"
+            android:text="원"
+            android:textColor="#363636"
+            android:textSize="17sp"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="-6dp"
+        android:background="#ffffff" />
+
+</LinearLayout>

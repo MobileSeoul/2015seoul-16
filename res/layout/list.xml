@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar1"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:text=" "
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2.5dp"
+        android:layout_toLeftOf="@+id/text3"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="7.5dp"
+        android:layout_toLeftOf="@+id/text2"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/text1"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2.5dp"
+        android:layout_toLeftOf="@+id/text9"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="7.5dp"
+        android:layout_toLeftOf="@+id/text8"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/text3"
+        android:paddingBottom="5dp" />
+
+    <TableLayout
+        android:id="@+id/tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bu1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="-4dip"
+                android:layout_marginTop="-4dip"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu1"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="-4dip"
+                android:layout_marginTop="-4dip"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu2"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="-4dip"
+                android:layout_marginTop="-4dip"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu3"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bu4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="-4dip"
+                android:layout_marginTop="-4dip"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu4"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bu5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="-4dip"
+                android:layout_marginTop="-4dip"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu5"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bu6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="-4dip"
+                android:layout_marginTop="-4dip"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="bu6"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

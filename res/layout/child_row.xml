@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:background="#ffffff"
+     >
+
+   <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="-6dp"
+        android:src="@drawable/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/childname"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="65dp"
+        android:textScaleX="0.83"
+        android:typeface="monospace"
+        android:textColor="#363636"
+        android:textSize="25sp"
+        android:focusable="false"
+      />
+
+    <TextView
+        android:id="@+id/rgb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="38dp"
+        android:typeface="monospace"
+        android:textColor="#363636"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/mainupbtn"
+        android:layout_width="20dp"
+        android:layout_height="30dp"  
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="56dp"      
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonstyle_first1"
+        />
+
+    <Button
+        android:id="@+id/maindownbtn"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"    
+        android:background="@drawable/buttonstyle_first2"
+        />
+
+    <TextView
+        android:id="@+id/mainamounttv"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/maindownbtn"
+        android:layout_toLeftOf="@+id/maindownbtn"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+		android:textColor="#000000"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:text="zzz" />
+
+</RelativeLayout>
